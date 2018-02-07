@@ -1,0 +1,30 @@
+{
+    "name": "peczis/pec-cms",
+    "description": "CMS based at Laravel",
+    "keywords": ["cms", "laravel", "laravel cms", "peccms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "peczis",
+            "email": "mat.winczi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "peczis\\pecCms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "peczis\\pecCms\\PecCmsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
