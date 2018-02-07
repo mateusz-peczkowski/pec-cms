@@ -1,5 +1,5 @@
 # pec-CMS - The Laravel Admin
-Made with ❤️ by [peczis](https://github.com/peczis)
+Made with ❤️ by [peczis](https://github.com/mateusz-peczkowski)
 
 ## Installation Steps
 
